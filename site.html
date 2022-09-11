@@ -6,12 +6,92 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Codeblooded 3.0</title>
   <link href="stylesite.css" rel="stylesheet" />
-  <link href="prizes.css" rel="stylesheet" />
+  <link href="./css/prizes.css" rel="stylesheet" />
+  <link href="./css/stylesite.css" rel="stylesheet" />
+  <link href="./css/navbar.css" rel="stylesheet" />
+  <link href="./css/loader.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
   <div class="wrap">
-    <div class="black"></div>
+    <div class="black">
+      <div id="particles-js"></div>
+      <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-trans sticky-top">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <img src="" alt=" CodeBlooded 3.0">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home
+                  </a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#prizes">Prizes</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#rules">Rules</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#stg">About STG</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#venue">Venue</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="main-body text-center pt-3">
+            <div class="maintitle">
+              <h1>Code Blooded 3.0</h1>
+            </div>
+            <div class="dateandplace">
+              <h1 class="fs-32 text-white  fw-500">17th <span class="text-base-color">September</span> 2022</h1>
+              <h1 class="fs-42 text-white  fw-600">Punjab Engineering College</h1>
+            </div>
+            <div class="buytickets m-5">
+              <a href="https://forms.gle/MDL6uFJPok9p8cYB9" class="btnregister">REGISTER</a>
+            </div>
+            <div class="countdown-timer">
+              <div class="days">
+                <span class="value">00</span><br>
+                <span class="label">DAYS</span>
+              </div>
+              <span class="colon">:</span>
+              <div class="hours">
+                <span class="value">00</span><br>
+                <span class="label">HOURS</span>
+              </div>
+              <span class="colon">:</span>
+              <div class="minutes">
+                <span class="value">00</span><br>
+                <span class="label">MINS</span>
+              </div>
+              <span class="colon">:</span>
+              <div class="seconds">
+                <span class="value">00</span><br>
+                <span class="label">SEC</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="white"></div>
     <div class="black"></div>
     <div class="white"></div>
@@ -703,5 +783,48 @@
     </div>
   </div>
 </body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+  $('.navbar-nav>li>a').on('click', function () {
+    $('.navbar-collapse').collapse('hide');
+  });
+
+</script>
+</script>
+<script type="text/javascript">var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks on the button, open the modal
+  btn.onclick = function () {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }</script>
+<script language="javascript" type="text/javascript">
+  $(window).on('load', function () { $(".se-pre-con").fadeOut("slow");; });
+</script>
+
+<script src="./js/particles.min.js"></script>
+<script src="./js/main.js"></script>
+<script src="./js/jquery.countdown.min.js"></script>
+<script src="./js/countdown.js"></script>
 
 </html>

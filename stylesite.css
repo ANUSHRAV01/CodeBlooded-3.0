@@ -1,0 +1,16 @@
+body{
+    margin:0;
+  }
+  .wrap {
+    height: 400vh;
+  }
+  .black{
+    background:#000;
+    height:50%;
+    width:100%;
+  }
+  .white{
+    background:#fff;
+    height:50%;
+    width:100%;
+  }

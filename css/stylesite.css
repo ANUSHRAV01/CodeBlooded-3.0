@@ -689,6 +689,7 @@ body{
   
     .maintitle {
       margin-top: 7rem;
+      width: 100%;
     }
   
     .contactusbox {
@@ -1291,6 +1292,8 @@ body{
       .maintitle img {
         width: 100%;
       }
+
+      
   
       .sponsorsous {
         margin: 0px;
@@ -1467,3 +1470,5 @@ body{
       }
   
     }
+
+    

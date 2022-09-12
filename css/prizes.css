@@ -1,5 +1,6 @@
 .prizes {
-	background: radial-gradient(#272727, #000);
+	/* background: radial-gradient(#272727, #000); */
+	background: white;
 	height: 100vh;
 	padding: 0;
 	margin: 0;
@@ -17,6 +18,7 @@
 	max-width: 450px;
 	width: 23vw;
 	height: auto;
+	color: black;
 }
 .numeroUno .medalion {
 	transform: scale(0);
@@ -455,7 +457,7 @@
 	transform: translateY(20%);
 }
 .amount {
-	color: #F2F2F2;
+	color: black;
 	font-size: 3vw;
 	/* transition: all 0.3s ease-out; */
 	transform: translateY(-100%);

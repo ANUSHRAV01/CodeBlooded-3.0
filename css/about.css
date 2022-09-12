@@ -49,6 +49,8 @@ h1 {
 	height: 100%;
 	margin: 0;
 	width: 100%;
+	display: flex;
+	align-items: center;
 }
 
 .about-frame {

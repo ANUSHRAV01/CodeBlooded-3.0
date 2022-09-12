@@ -1,0 +1,53 @@
+/* VENUE AND LOCATION */
+
+#venue {
+  padding: 7% 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.venue-img {
+  opacity: 0.9;
+  width: 100%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.venue-container {
+  padding: 0;
+  margin: 0;
+}
+
+.black-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0.3;
+}
+.carousel-item {
+  float: none;
+  transition: 0s !important;
+}
+@media (max-width: 570px) {
+  .location-h1 {
+    font-size: 25px;
+  }
+  .location-h2 {
+    font-size: 20px;
+    margin: 0;
+  }
+  .location {
+    padding: relative;
+  }
+}

@@ -1,0 +1,62 @@
+/* body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  margin-top: 20%;
+}
+
+h2 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 600;
+}
+
+h3 {
+  font-family: "Montserrat-Bold", sans-serif;
+  font-weight: 600;
+  line-height: 1.5;
+} */
+
+/* VENUE AND LOCATION */
+
+#venue {
+  padding: 7% 0%;
+  text-align: center;
+  color: #fff;
+}
+
+.venue-img {
+  opacity: 0.9;
+  width: 100%;
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+.location {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+  height: 80%;
+}
+
+.black-img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  opacity: 0.3;
+}

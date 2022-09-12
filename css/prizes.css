@@ -16,7 +16,7 @@
 	position: relative;
 	overflow: visible;
 	max-width: 450px;
-	width: 23vw;
+	width: 15vw;
 	height: auto;
 	color: black;
 }
@@ -458,7 +458,8 @@
 }
 .amount {
 	color: black;
-	font-size: 3vw;
+	font-size: 4vw;
+	font-weight: bold;
 	/* transition: all 0.3s ease-out; */
 	transform: translateY(-100%);
 	opacity: 0;
@@ -487,6 +488,6 @@
 		transform: translateY(0%);
 	}
 	.amount {
-		font-size: 3vh;
+		font-size: 4vh;
 	}
 }

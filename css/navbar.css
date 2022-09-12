@@ -94,7 +94,8 @@
 --------------------------------------------- */
 
 header {
-    background: #1A659E;
+    background: black;
+    opacity: 90%;
     position: fixed;
     z-index: 3;
     width: 100%;

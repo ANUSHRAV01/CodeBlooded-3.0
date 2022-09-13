@@ -1,7 +1,7 @@
 /* VENUE AND LOCATION */
 
 #venue {
-  padding: 7% 0%;
+  /* padding: 7% 0%; */
   text-align: center;
   color: #fff;
 }
@@ -9,6 +9,7 @@
 .venue-img {
   opacity: 0.9;
   width: 100%;
+  height: 100vh;
 }
 
 .download-button {

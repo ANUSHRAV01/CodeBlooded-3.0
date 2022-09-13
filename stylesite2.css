@@ -1,7 +1,21 @@
 body{
-    margin: 10px;
+    margin: 0px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .para{
     text-align: left;
     font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+@media screen and (max-width: 426px) {
+    .para {
+        flex-direction: column;
+        margin: 10px;
+    }
 }
